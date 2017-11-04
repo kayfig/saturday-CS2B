@@ -88,6 +88,17 @@ rat raven rhino salmon seal shark sheep skunk sloth snake spider stork swan tige
 
 toad trout turkey turtle weasel whale wolf wombat zebra'''.split()
 
+FOODS = '''pizza.cookie.pasta.fries.cake.banana.apple.orange.banana.chocolate.
+
+burger.onions.carrots.tomatoes.pineapple.sushi.eggs.waffles.pancakes.steak.chicken.
+
+tacos.nachos.chips.muffins.cupcakes.crackers.donuts.pudding.turkey.biscuits.corn.
+
+enchiladas.scones.smoothies.tea.pickles.squid.shrimp.clams.omelette.mushrooms.bacon.
+
+strawberries.pies.spaghetti.croissants.jelly.fudge.truffle.bubblegum.pretzel.popcorn.
+
+popsicle.jumbalaya.quesadilla'''.split(.)
 
 
 
@@ -176,7 +187,7 @@ def play():
 
     print("H A N G M A N")
 
-    print("A game by Aaron Hobson")
+    print("A game by Kamryn Figuerres")
 
     missed_letters, correct_letters = "", ""
 
@@ -221,7 +232,8 @@ def play():
         if match:
 
             print("Yes! The secret word is " + secret_word + "! You win!")
-
+            
+            score
             stop_game = True
 
         elif len(missed_letters) == len(HANGMAN_PICS):
